@@ -10,6 +10,9 @@
 		font-family: Arial, Helvetica, sans-serif;
 		/* font-size : 16px;/* pour test ==> défini dans chaque media query */
 	}
+	body{
+		background-color: grey;
+	}
 	/* titre */
 	body>header {
 		font-size: 3em;
@@ -33,7 +36,7 @@
 	}
 	.im{
         width:400px;
-        height:300px ;
+        height:250px ;
     }
 	#formation table th {
 		text-align: left;
@@ -45,12 +48,12 @@
 		
 	}
 	
-	#civil>img {
+	#civil {
 		display: block;
-		width: 95%;
+		width: 40%;
 		margin: auto;
 		border: 3px solid white;
-		border-radius: 5px;
+		border-radius: 50px;
 	}
 	
 	#civil p {
@@ -66,4 +69,8 @@
 		list-style: none;
 		padding-left: 0px;
 	}
+}
+a{
+	text-align:center;
+	font-size: 30px;
 }
